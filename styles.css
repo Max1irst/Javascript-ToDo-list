@@ -5,6 +5,7 @@
 }
 
 body{
+    background-color: #1d2630;
     position: absolute;
     height: 35%;
     width: 340px;
@@ -78,7 +79,7 @@ body{
 }
 
 .task span{
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 400;
     cursor: pointer;
 
@@ -88,13 +89,13 @@ body{
     border: none;
     height: 100%;
     background: #19A68C;
-    width: 400px;
+    width: 40px;
     color: #fff;
     border-radius: 5px;
     cursor: pointer;
 }
 
-.competed{
+.completed{
     text-decoration: line-through;
     opacity: 0.7;
 }
